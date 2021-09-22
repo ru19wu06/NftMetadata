@@ -26,6 +26,8 @@ for(var a=1;a<=10;a++){
         description:description,
         image:image
     };
+
+
     
    // Metadata.push(obj);
     
@@ -35,6 +37,8 @@ fs.writeFile(fileName,  JSON.stringify(obj), function (err) {
     else
         console.log('Write operation complete.');
 });
+
+console.log(JSON.stringify(obj));
 
 }
 
