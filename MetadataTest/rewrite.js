@@ -19,7 +19,7 @@ for(var a=1;a<=10;a++){
     var fileName = String(a);
     var names = 'test'+a;
     var description = 'a fsfs';
-    var image = 'https://ru19wu06.github.io/FishDoge_FDOGE/MetadataFF/2x/test.jpg';
+    var image = 'https://ru19wu06.github.io/FishDoge_FDOGE/MetadataTest/www.jpg';
 
     var obj = {
         name:names,
