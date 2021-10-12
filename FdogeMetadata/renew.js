@@ -11,7 +11,7 @@ const { finished } = require('stream');
 
 
 
-for(var a=1;a<=10;a++){
+for(var a=1;a<=200;a++){
 
     var fileName = String(a);
 
@@ -94,7 +94,7 @@ for(var a=1;a<=10;a++){
     
   
     
-fs.writeFile(fileName,  JSON.stringify(obj), function (err) {
+fs.writeFile('./Data/'+fileName,  JSON.stringify(obj), function (err) {
     if (err)
         console.log(err);
     else
