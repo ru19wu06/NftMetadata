@@ -41,5 +41,8 @@ fs.writeFile(fileName,  JSON.stringify(obj), function (err) {
 //console.log(JSON.stringify(obj));
 
 }
+//setBaseURI('https://ru19wu06.github.io/FishDoge_FDOGE/fdoge_nft/');
+
+//https://ru19wu06.github.io/NftMetadata/MetadataTest2/
 
 //https://ru19wu06.github.io/FishDoge_FDOGE/Metadata_test/
