@@ -22,7 +22,7 @@ for(var a=1;a<=200;a++){
         
         var names = 'A Fish Doge '+a;
         var description = 'A Fishdoggie that can do nothing';
-        var image = 'https://ru19wu06.github.io/NftMetadata/FdogeMetadata/30set/';
+        var image = 'https://ru19wu06.github.io/NftMetadata/30set/';
 
         image = image+'common/F'+ran+'.png' 
 
@@ -37,7 +37,7 @@ for(var a=1;a<=200;a++){
         ran = ran - 42;
         var names = 'A Special Fish Doge '+a;
         var description = 'A Fishdoggie that can do something';
-        var image = 'https://ru19wu06.github.io/NftMetadata/FdogeMetadata/30set/';
+        var image = 'https://ru19wu06.github.io/NftMetadata/30set/';
         image = image+'uncommon/S'+ran+'.png' 
 
         var dsc = [
@@ -51,7 +51,7 @@ for(var a=1;a<=200;a++){
 
         var names = 'A Solana Fish Doge '+a;
         var description = 'A Solana Fishdoggie that can do everything';
-        var image = 'https://ru19wu06.github.io/NftMetadata/FdogeMetadata/30set/rare/Solana.png';
+        var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/Solana.png';
 
         var dsc = [
             {
@@ -63,7 +63,7 @@ for(var a=1;a<=200;a++){
     }else if(ran ==53){
         var names = 'A Rich Fish Doge '+a;
         var description = 'A Rich Fishdoggie that can do everything';
-        var image = 'https://ru19wu06.github.io/NftMetadata/FdogeMetadata/30set/rare/rich.png';
+        var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/rich.png';
 
         var dsc = [
             {
