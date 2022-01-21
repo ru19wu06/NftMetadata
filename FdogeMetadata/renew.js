@@ -18,13 +18,13 @@ for(var a=1;a<=200;a++){
     var ran = Math.floor(Math.random() * 53)+1;
     
     if(ran<=42){
-        var num = Math.round(ran/2);
         
-        var names = 'A Fish Doge '+a;
+        
+        var names = 'A Fish Doge ';
         var description = 'A Fishdoggie that can do nothing';
         var image = 'https://ru19wu06.github.io/NftMetadata/30set/';
 
-        image = image+'common/F'+ran+'.png' 
+        image = image+'common/F'+ran/2+'.png' 
 
         var dsc = [
             {
@@ -35,7 +35,7 @@ for(var a=1;a<=200;a++){
 
     }else if(ran>42 && ran<=51){
         ran = ran - 42;
-        var names = 'A Special Fish Doge '+a;
+        var names = 'A Special Fish Doge ';
         var description = 'A Fishdoggie that can do something';
         var image = 'https://ru19wu06.github.io/NftMetadata/30set/';
         image = image+'uncommon/S'+ran+'.png' 
@@ -49,7 +49,7 @@ for(var a=1;a<=200;a++){
 
     }else if(ran == 52){
 
-        var names = 'A Solana Fish Doge '+a;
+        var names = 'A Solana Fish Doge ';
         var description = 'A Solana Fishdoggie that can do everything';
         var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/Solana.png';
 
@@ -61,7 +61,7 @@ for(var a=1;a<=200;a++){
         ];
 
     }else if(ran ==53){
-        var names = 'A Rich Fish Doge '+a;
+        var names = 'A Rich Fish Doge ';
         var description = 'A Rich Fishdoggie that can do everything';
         var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/rich.png';
 
