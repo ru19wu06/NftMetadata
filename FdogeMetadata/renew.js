@@ -24,7 +24,7 @@ for(var a=1;a<=200;a++){
         var description = 'A Fishdoggie that can do nothing';
         var image = 'https://ru19wu06.github.io/NftMetadata/30set/';
 
-        image = image+'common/F'+ran/2+'.png' 
+        image = image+'common/F'+Math.round(ran/2)+'.png' 
 
         var dsc = [
             {
