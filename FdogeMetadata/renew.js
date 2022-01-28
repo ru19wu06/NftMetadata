@@ -51,7 +51,7 @@ for(var a=1;a<=200;a++){
 
         var names = 'A Solana Fish Doge ';
         var description = 'A Solana Fishdoggie that can do everything';
-        var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/Solana.png';
+        var image = 'https://ru19wu06.github.io/NftMetadata/30set/rare/solana.png';
 
         var dsc = [
             {
